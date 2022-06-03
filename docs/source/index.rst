@@ -53,3 +53,10 @@ Contents
    * that should be
    * displayed
    * horizontally
+
+.. highlight:: C#
+
+.. code-block:: 
+   public class SolucaoOrquestradora {
+      Aqui será incluso o método
+   }
