@@ -38,3 +38,18 @@ Contents
    
 .. versionadded:: 3.10
    Detalhes *spam* versão
+   
+.. centered:: Centralizado
+
+.. rubric::
+   Se o título da rubrica for “Notas de rodapé” (ou o equivalente do idioma selecionado), essa rubrica será ignorada pelo escritor do LaTeX, 
+   pois presume-se que ela contenha apenas definições de notas de rodapé e, portanto, criaria um cabeçalho vazio.
+
+.. hlist::
+   :columns: 3
+   
+   * A list of
+   * short items
+   * that should be
+   * displayed
+   * horizontally
