@@ -78,3 +78,9 @@ Contents
    Assunto 2
       The directory which, including its subdirectories, contains all
       source files for one Sphinx project.
+
+.. glossary::
+
+   term 1 : A
+   term 2 : B
+      Definition of both terms.
