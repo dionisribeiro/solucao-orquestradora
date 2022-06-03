@@ -57,7 +57,10 @@ Contents
 .. highlight:: C#
 
 .. code-block:: c#
+   :linenos:
 
    public class SolucaoOrquestradora {
       Aqui será incluso o método 
+      Segundo bloco
+      Terceiro bloco
    }
