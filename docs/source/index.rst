@@ -6,12 +6,10 @@ link para o site *Macoratti*
 
 * Dionis
 * Martinha
-+ Felipe
-+ Caio
-- Paulinho
-- Érica
+* Felipe
 
 This is [site exemplo](https://www.macoratti.net/19/07/net_apipub1.htm/ "Abra o site Macoratti") inline link.
+Acesse :doc:`solucao`
 
 
 Check out the :doc:`usage` section for further information, including
