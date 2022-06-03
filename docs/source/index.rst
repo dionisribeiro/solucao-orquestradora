@@ -54,7 +54,7 @@ Contents
    * displayed
    * horizontally
 
-.. highlight:: C#
+:caption: Linguagem C#
 
 .. code-block:: c#
    :linenos:
