@@ -32,8 +32,9 @@ Contents
 
    Aqui é o conteúdo da índex.
 
-.. aviso::
+.. warning::
 
    Uma informação importante sobre uma API!
    
-   .. versao adicionada:: 3.10
+   .. versionadded:: 3.10
+      Detalhes *spam* versão
