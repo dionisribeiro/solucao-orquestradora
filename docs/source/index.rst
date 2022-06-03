@@ -56,5 +56,7 @@ Contents
 
 .. highlight:: C#
 
-.. code-block:: 
-   public class SolucaoOrquestradora { Aqui será incluso o método }
+.. code-block:: c#
+   public class SolucaoOrquestradora {
+      Aqui será incluso o método 
+   }
