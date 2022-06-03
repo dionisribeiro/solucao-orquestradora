@@ -56,6 +56,8 @@ Contents
 
 :caption: Linguagem C#
 
+.. highlight:: language
+
 .. code-block:: c#
    :linenos:
 
