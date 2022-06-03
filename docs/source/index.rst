@@ -21,5 +21,10 @@ how to :ref:`installation` the project.
 
 Contents
 --------
+.. toctree::
 
+   usage
+   api
+   solucao
+   
 Aqui é o conteúdo da índex.
