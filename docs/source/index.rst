@@ -22,8 +22,7 @@ how to :ref:`installation` the project.
 Contents
 --------
 .. toctree::
-   :includehidden:
-
+   :hidden:
    usage
    api
    solucao
