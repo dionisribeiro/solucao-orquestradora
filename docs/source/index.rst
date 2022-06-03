@@ -79,8 +79,6 @@ Contents
       The directory which, including its subdirectories, contains all
       source files for one Sphinx project.
 
-.. glossary::
+Parei aqui Marcação Meta-Informação
 
-   term 1 : A
-   term 2 : B
-      Definition of both terms.
+.. sectionauthor:: Guido van Rossum <guido@python.org>
