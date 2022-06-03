@@ -22,12 +22,18 @@ how to :ref:`installation` the project.
 Contents
 --------
 .. toctree::
-   :maxdepth: 2
+   :hidden:
    
    usage
    api
    solucao
 
+.. nota::
 
+   Aqui é o conteúdo da índex.
 
-Aqui é o conteúdo da índex.
+.. aviso::
+
+   Uma informação importante sobre uma API!
+   
+   .. versao adicionada:: 3.10
