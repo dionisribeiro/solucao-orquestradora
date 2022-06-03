@@ -28,7 +28,7 @@ Contents
    api
    solucao
 
-.. nota::
+.. note::
 
    Aqui é o conteúdo da índex.
 
