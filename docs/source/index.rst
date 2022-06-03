@@ -36,5 +36,5 @@ Contents
 
    Uma informação importante sobre uma API!
    
-   .. versionadded:: 3.10
-      Detalhes *spam* versão
+.. versionadded:: 3.10
+   Detalhes *spam* versão
