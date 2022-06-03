@@ -23,6 +23,7 @@ Contents
 --------
 .. toctree::
    :hidden:
+   
    usage
    api
    solucao
