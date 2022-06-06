@@ -2,8 +2,8 @@
 
 # -- Project information
 
-project = 'Orquestradora'
-copyright = '2021, Graziella'
+project = 'Solução Orquestradora'
+copyright = '2022, Cedro'
 author = 'Graziella'
 
 release = '0.1'
