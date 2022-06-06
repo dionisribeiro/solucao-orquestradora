@@ -1,5 +1,5 @@
 Solução Orquestradora - Chamada API 3.0
-======================================
+=======================================
 
 .. autosummary::
 
@@ -49,7 +49,7 @@ Como fazer uma chamada de API
    
 **Exemplo de resposta da API**
    
-.. code-block:: JSON
+.. code-block:: c#
 
    Example of API response
 
