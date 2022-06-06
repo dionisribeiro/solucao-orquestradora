@@ -26,6 +26,7 @@ Contents
    
    usage
    api
+   solucao-v2
    solucao
 
 .. note::
