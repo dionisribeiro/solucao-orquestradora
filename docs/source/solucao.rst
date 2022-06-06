@@ -1,5 +1,5 @@
 Solução Orquestradora - Chamada API 3.0
-=====================
+======================================
 
 .. autosummary::
 
@@ -15,7 +15,7 @@ A API One Call fornece os seguintes dados meteorológicos para quaisquer coorden
 * Dados meteorológicos históricos para mais de 40 anos (desde 1º de janeiro de 1979)
 
 Como fazer uma chamada de API
-----
+-----------------------------
 
 **Chamada de API**
 
@@ -49,7 +49,7 @@ Como fazer uma chamada de API
    
 **Exemplo de resposta da API**
    
-.. code-block:: json
+.. code-block:: JSON
 
    Example of API response
 
