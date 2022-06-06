@@ -49,7 +49,7 @@ Como fazer uma chamada de API
    
 **Exemplo de resposta da API**
    
-.. code-block:: c#
+.. code-block:: json
 
    Example of API response
 
