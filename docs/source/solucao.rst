@@ -49,7 +49,7 @@ Como fazer uma chamada de API
    
 **Exemplo de resposta da API**
    
-.. code-block:: json
+.. code-block:: jsonld
 
    Example of API response
 
