@@ -3,46 +3,39 @@ Solução Orquestradora v.2
 
 .. autosummary::
   
-Method: users.getProfile
+Método: users.getProfile
 ========================
 
-Gets the current user's Gmail profile.
+Obtém o perfil do Usuário atual no Gmail.
 
-HTTP request
-------------
+Solicitação HTT
+---------------
 
 .. code-block::
   
   GET https://gmail.googleapis.com/gmail/v1/users/{userId}/profile
   
-Path parameters
----------------
+Parâmetros de caminho
+---------------------
 
 ====== =================
 Parameters     
 ------------------------
 userId string
-        The user's email address. The special value can be used to indicate the authenticated user.me
+
+       O endereço de e-mail do usuário. O valor especial pode ser usado para indicar o usuário autenticado.me
 ====== =================
 
+Request body
+------------
 
-====== =================
-Parameters     
-------------------------
-userId string
-        The user's email address. The special value can be used to indicate the authenticated user.me
-====== =================
-False  False  False
-True   False  True
-False  True   True
-True   True   True
-====== =================
+O corpo de solicitação deve estar vazio.
 
+Response body
+-------------
 
-+------------------------+------------+----------+----------+
-| Header row, column 1                                      |
-+========================+============+==========+==========+
-| body row 1, column 1   | column 2   | column 3 | column 4 |
-+------------------------+------------+----------+----------+
-| body row 2             | ...        | ...      |          |
-+------------------------+------------+----------+----------+
+Se for bem sucedido, o corpo de resposta contém dados com a seguinte estrutura:
+
+Perfil para um usuário do Gmail.
+
+.. code-block::
