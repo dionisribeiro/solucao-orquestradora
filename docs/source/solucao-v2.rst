@@ -48,7 +48,7 @@ Se for bem sucedido, o corpo de resposta contém dados com a seguinte estrutura:
 
 Perfil para um usuário do Gmail.
 
-.. code-block:: json
+.. code-block:: js
 
   JSON representation
 
