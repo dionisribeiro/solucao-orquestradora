@@ -68,17 +68,7 @@ Perfil para um usuário do Gmail.
 +---------------+---------+---------------------------------------------------+
 
 
-=============== ========= =================================================== 
-  Campos          Tipo      Descrição                                          
-=============== ========= =================================================== 
-  emailAddress    string    O endereço de e-mail do usuário.                   
-=============== ========= =================================================== 
-  messagesTotal   integer   O número total de mensagens na caixa de correio.   
-=============== ========= =================================================== 
-  threadsTotal    integer   O número total de threads na caixa de correio.     
-=============== ========= =================================================== 
-  historyId       string    A ID do histórico atual da caixa de correio.       
-=============== ========= =================================================== 
+
 
                            
                                                                                                                                                                
