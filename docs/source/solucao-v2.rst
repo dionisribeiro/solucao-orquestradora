@@ -38,4 +38,20 @@ Se for bem sucedido, o corpo de resposta contém dados com a seguinte estrutura:
 
 Perfil para um usuário do Gmail.
 
-.. code-block::
+.. code-block:: json
+
+  JSON representation
+
+  {
+    "emailAddress": string,
+    "messagesTotal": integer,
+    "threadsTotal": integer,
+    "historyId": string
+  }
+  
+
+
+
+
+
+
