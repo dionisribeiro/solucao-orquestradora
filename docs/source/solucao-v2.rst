@@ -13,8 +13,8 @@ Solicitação HTT
 
 .. code-block::
   
-  GET https://gmail.googleapis.com/gmail/v1/users/{userId}/profile
-  
+  GET https://gmail.googleapis.com/gmail/v1/users/{userId}/profile 
+
 Parâmetros de caminho
 ---------------------
 
@@ -25,6 +25,12 @@ userId string
 
        O endereço de e-mail do usuário. O valor especial pode ser usado para indicar o usuário autenticado.me
 ====== =================
+
+============= ========= ========================================================================================================= 
+  Parâmetros    Tipo      Descrição                                                                                                
+============= ========= ========================================================================================================= 
+  userId        string    O endereço de e-mail do usuário. O valor especial pode ser usado para indicar o usuário autenticado.me   
+============= ========= ========================================================================================================= 
 
 Request body
 ------------
@@ -49,6 +55,42 @@ Perfil para um usuário do Gmail.
     "historyId": string
   }
   
++---------------+---------+---------------------------------------------------+
+| Campos        | Tipo    | Descrição                                         |
++===============+=========+===================================================+
+| emailAddress  | string  | O endereço de e-mail do usuário.                  |
++---------------+---------+---------------------------------------------------+
+| messagesTotal | integer | O número total de mensagens na caixa de correio.  |
++---------------+---------+---------------------------------------------------+
+| threadsTotal  | integer | O número total de threads na caixa de correio.    |
++---------------+---------+---------------------------------------------------+
+| historyId     | string  | A ID do histórico atual da caixa de correio.      |
++---------------+---------+---------------------------------------------------+
+
+
+=============== ========= =================================================== 
+  Campos          Tipo      Descrição                                          
+=============== ========= =================================================== 
+  emailAddress    string    O endereço de e-mail do usuário.                   
+=============== ========= =================================================== 
+  messagesTotal   integer   O número total de mensagens na caixa de correio.   
+=============== ========= =================================================== 
+  threadsTotal    integer   O número total de threads na caixa de correio.     
+=============== ========= =================================================== 
+  historyId       string    A ID do histórico atual da caixa de correio.       
+=============== ========= =================================================== 
+
+                           
+                                                                                                                                                               
+                                                                                                                                                               
+                                                                                                                                                               
+                                                                                                                                                               
+                                                                                                                                                               
+                                                                                                                                                               
+                                                                                                                                                               
+                                                                                                                                                               
+
+
 
 
 
