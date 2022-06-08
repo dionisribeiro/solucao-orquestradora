@@ -1,22 +1,36 @@
-Solução Orquestradora v.2
+Usuário v.2
 =========================
 
-.. autosummary::
-  
-Método: users.getProfile
-========================
+Overview
+--------
+
+Recurso
+~~~~~~~
+
+Não há dados persistentes associados a esse recurso.
+
++-------------+--------------------------------------------------------------------------------------------+
+| Métodos     |                                                                                            |
++=============+============================================================================================+
+| getProfile  | Obtém o perfil do Usuário atual no Gmail.                                                  |
++-------------+--------------------------------------------------------------------------------------------+
+| stop        | Pare de receber notificações push para a caixa de correio do usuário dada.                 |
++-------------+--------------------------------------------------------------------------------------------+
+| watch       | Configure ou atualize um relógio de notificação push na caixa de correio do usuário dada.  |
++-------------+--------------------------------------------------------------------------------------------+
+
+Obter Profile
+-------------
 
 Obtém o perfil do Usuário atual no Gmail.
 
-Solicitação HTT
----------------
+**Solicitação HTT**
 
 .. code-block::
   
   GET https://gmail.googleapis.com/gmail/v1/users/{userId}/profile 
 
-Parâmetros de caminho
----------------------
+**Parâmetros de caminho**
 
 ============= ========= ========================================================================================================= 
   Parâmetros    Tipo      Descrição                                                                                                
@@ -36,13 +50,11 @@ Parâmetros de caminho
 | historyId     | string  | A ID do histórico atual da caixa de correio.                                                           | 
 +---------------+---------+--------------------------------------------------------------------------------------------------------+
 
-Request body
-------------
+**Request body**
 
 O corpo de solicitação deve estar vazio.
 
-Response body
--------------
+**Response body**
 
 Se for bem sucedido, o corpo de resposta contém dados com a seguinte estrutura:
 
@@ -71,24 +83,4 @@ Perfil para um usuário do Gmail.
 +---------------+---------+--------------------------------------------------------------------------------------------------------+
 | historyId     | string  | A ID do histórico atual da caixa de correio.                                                           |
 +---------------+---------+--------------------------------------------------------------------------------------------------------+
-
-
-
-
-
-                           
-                                                                                                                                                               
-                                                                                                                                                               
-                                                                                                                                                               
-                                                                                                                                                               
-                                                                                                                                                               
-                                                                                                                                                               
-                                                                                                                                                               
-                                                                                                                                                               
-
-
-
-
-
-
 
