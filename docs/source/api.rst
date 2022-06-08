@@ -2,7 +2,6 @@ API
 ===
 
 .. autosummary::
-   usuario
    teste 2
    teste 3
   
