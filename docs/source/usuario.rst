@@ -24,7 +24,7 @@ A tabela a seguir mostra a lista de propriedades em um recurso do usuário.
 +----------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Obter usuários
---------------
+==============
 
 Recupera uma lista de usuários. Você pode consultar a lista usando vários parâmetros.
 
