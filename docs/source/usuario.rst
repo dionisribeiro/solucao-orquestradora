@@ -23,4 +23,88 @@ A tabela a seguir mostra a lista de propriedades em um recurso do usuário.
 | Update a user  | ``PUT /users/{user_id}``  Atualiza informações de um usuário.                                                                                                                    |
 +----------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+Obter usuários
+--------------
 
+Recupera uma lista de usuários. Você pode consultar a lista usando vários parâmetros.
+
+.. code-block:: js
+  
+  Solicitação HTTP
+  
+  GET https://api-{application_id}.sendbird.com/v3/users
+  
+Parâmetros de caminho
+---------------------
+
++-------------+---------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Parâmetros  | Tipo    | Descrição                                                                                                                                                                                                 |
++=============+=========+===========================================================================================================================================================================================================+
+| token       | string  | Especifica um token de página que indica o índice inicial de resultados a ser recuperado. Se não especificado, o índice está definido como 0                                                              |
++-------------+---------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| limit       | int     | Especifica o número de resultados a retornar por página. Os valores aceitáveis são de 1 a 100, inclusive. (Padrão: 10)                                                                                    |
++-------------+---------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| user_ids    | string  | Especifica as identidades do usuário. O valor deve ser uma sequência separada de círgula que consiste em múltiplos urlencoded IDs de usuário. O número máximo de IDs de usuário neste parâmetro é de 250  |
++-------------+---------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| nickname    | string  | Especifica os caracteres iniciais dos apelidos a procurar. Quando especificado, a solicitação de API procura usuários cujos apelidos começam com o valor especificado. Urlencoding recomenda-se o valor.  |
++-------------+---------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Request body
+------------
+
+O corpo de solicitação deve estar vazio.
+
+Response body
+-------------
+
+Se for bem sucedido, o corpo de resposta contém dados com a seguinte estrutura:
+
+.. code-block:: js
+  
+  {
+    "users": [
+        {
+            "user_id": "Craig",
+            "nickname": "Shopperholic",
+            "profile_url": "https://sendbird.com/main/img/profiles/profile_06_512px.png",
+            "is_active": true,
+            "is_online": true,
+            "created_at": 1542123432,
+            "last_seen_at": 0,
+            "has_ever_logged_in": true,
+            "metadata": {
+                "location": "San Francisco",
+                "marriage": "N"
+            }
+        },
+        {
+            "user_id": "Doris",
+            "nickname": "Dojung",
+            "profile_url": "https://sendbird.com/main/img/profiles/profile_05_512px.png",
+            "is_active": true,
+            "is_online": false,
+            "created_at": 1540285244,
+            "last_seen_at": 1540285396142,
+            "has_ever_logged_in": true,
+            "metadata": {
+                "location": "San Francisco",
+                "marriage": "Y"
+            }
+        },
+        {
+            "user_id": "Young",
+            "nickname": "Sportsman",
+            "profile_url": "https://sendbird.com/main/img/profiles/profile_07_512px.png",
+            "is_active": true,
+            "is_online": true,
+            "created_at": 1502403479,
+            "last_seen_at": 0,
+            "has_ever_logged_in": true,
+            "metadata": {
+                "location": "New York",
+                "marriage": "N"
+            }
+        }
+    ],
+    "next": "YXEZR1VVQVErEUBXWFNeF2p3FkFVVA~~"
+}
