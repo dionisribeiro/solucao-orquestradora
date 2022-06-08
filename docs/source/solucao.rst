@@ -1,7 +1,7 @@
 Usuário
 =======================================
 
-.. autosummary::
+
 
 Faça apenas uma chamada de API e obtenha todos os seus dados meteorológicos essenciais para um local específico com a nossa nova **API OpenWeather One Call 3.0.**
 
