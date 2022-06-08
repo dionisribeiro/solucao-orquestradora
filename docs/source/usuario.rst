@@ -2,6 +2,7 @@ Usuário
 =======================================
 
 .. autosummary::
+  :toctree: generated
 
 Overview
 ========
