@@ -3,6 +3,8 @@
    
    usuario
    solucao-v2
+   api
+   usage
 
 Solução Orquestradora
 ===================================
