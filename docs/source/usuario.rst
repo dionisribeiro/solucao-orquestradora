@@ -62,49 +62,9 @@ Se for bem sucedido, o corpo de resposta contém dados com a seguinte estrutura:
 .. code-block:: js
   
   {
-    "users": [
-        {
-            "user_id": "Craig",
-            "nickname": "Shopperholic",
-            "profile_url": "https://sendbird.com/main/img/profiles/profile_06_512px.png",
-            "is_active": true,
-            "is_online": true,
-            "created_at": 1542123432,
-            "last_seen_at": 0,
-            "has_ever_logged_in": true,
-            "metadata": {
-                "location": "San Francisco",
-                "marriage": "N"
-            }
-        },
-        {
-            "user_id": "Doris",
-            "nickname": "Dojung",
-            "profile_url": "https://sendbird.com/main/img/profiles/profile_05_512px.png",
-            "is_active": true,
-            "is_online": false,
-            "created_at": 1540285244,
-            "last_seen_at": 1540285396142,
-            "has_ever_logged_in": true,
-            "metadata": {
-                "location": "San Francisco",
-                "marriage": "Y"
-            }
-        },
-        {
-            "user_id": "Young",
-            "nickname": "Sportsman",
-            "profile_url": "https://sendbird.com/main/img/profiles/profile_07_512px.png",
-            "is_active": true,
-            "is_online": true,
-            "created_at": 1502403479,
-            "last_seen_at": 0,
-            "has_ever_logged_in": true,
-            "metadata": {
-                "location": "New York",
-                "marriage": "N"
-            }
-        }
-    ],
-    "next": "YXEZR1VVQVErEUBXWFNeF2p3FkFVVA~~"
-} 
+    "user_id": "Craig",
+    "nickname": "Shopperholic",
+    "is_active": true,
+    "is_online": true,
+    "created_at": 1542123432,
+  }
