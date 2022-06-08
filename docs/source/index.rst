@@ -2,7 +2,7 @@
    :hidden:
    
    usuario
-   solucao-v2
+   usuario-v2
    api
    usage
 
