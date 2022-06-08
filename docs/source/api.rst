@@ -1,6 +1,9 @@
 API
 ===
 
+.. toctree::
+   :hidden:
+
 Teste 2
 -------
 
