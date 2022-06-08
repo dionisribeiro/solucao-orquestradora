@@ -3,7 +3,8 @@ API
 
 .. autosummary::
    usuario
-   usuario.rst
+   teste 2
+   teste 3
   
 
 Teste 2
