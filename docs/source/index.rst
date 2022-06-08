@@ -1,10 +1,8 @@
 .. toctree::
    :hidden:
    
-   usage
-   api
-   solucao-v2
    usuario
+   solucao-v2
 
 Solução Orquestradora
 ===================================
