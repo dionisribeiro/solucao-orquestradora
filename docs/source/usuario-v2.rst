@@ -84,3 +84,4 @@ Perfil para um usuário do Gmail.
 | historyId     | string  | A ID do histórico atual da caixa de correio.                                                           |
 +---------------+---------+--------------------------------------------------------------------------------------------------------+
 
+`Referência <https://developers.google.com/gmail/api/reference/rest/v1/users/getProfile>`_
