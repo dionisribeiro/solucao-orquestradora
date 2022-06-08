@@ -24,7 +24,7 @@ A tabela a seguir mostra a lista de propriedades em um recurso do usuário.
 +----------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Obter usuários
-==============
+--------------
 
 Recupera uma lista de usuários. Você pode consultar a lista usando vários parâmetros.
 
@@ -35,7 +35,7 @@ Recupera uma lista de usuários. Você pode consultar a lista usando vários par
   GET https://api-{application_id}.sendbird.com/v3/users
   
 Parâmetros de caminho
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
 +-------------+---------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Parâmetros  | Tipo    | Descrição                                                                                                                                                                                                 |
@@ -50,12 +50,12 @@ Parâmetros de caminho
 +-------------+---------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Request body
-------------
+~~~~~~~~~~~~
 
 O corpo de solicitação deve estar vazio.
 
 Response body
--------------
+~~~~~~~~~~~~~
 
 Se for bem sucedido, o corpo de resposta contém dados com a seguinte estrutura:
 
